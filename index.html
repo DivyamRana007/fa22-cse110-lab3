@@ -7,6 +7,13 @@
     <meta charset="UTF-8">
   </head>
   <body>
+    <nav>
+        <ol>
+            <li><a href="#">Form</a></li>
+            <li><a href="#">Meeting Notes</a></li>
+            <li><a href="#">Attendance List</a></li>
+        </ol>
+    </nav>
     <header>
         <h1 style="text-align:center">Summer Project Brainstroming</h1>
         <br>
@@ -37,12 +44,12 @@
         <h2>Meeting Agenda</h2>
         <p>
             <span>The agenda for the day is : </span><br>
-        <ol>
-            <ul>Potential summer projects for undergrad students</ul>
-            <ul>Number of possible openings for in project</ul>
-            <ul>Potential team sizes</ul>
-            <ul>Funding for the projects</ul>
-        </ol>
+        <ul>
+            <li>Potential summer projects for undergrad students</li>
+            <li>Number of possible openings in project</li>
+            <li>Potential team sizes</li>
+            <li>Funding for the projects</li>
+        </ul>
     </p>
     </section>
     <br>
@@ -57,7 +64,7 @@
     <hr>
     <br>
 
-    <section>
+    <section id = 'Meeting Notes'>
         <h2>Meeting Notes</h2>
         <p>
             Some of the suggested summer project ideas : 
@@ -69,15 +76,127 @@
             <br>
             Number of total openings for the summer project : 
             <ol>
-                <li> Avengers Campus Internship - 1,000 </li>
+                <li> Avengers Campus Internship            : 1,000 </li>
+                <li> <i>SHIELD</i> Protocol Engineer       : 20</li>
+                <li><i>SHIELD</i> Research and Development : 12</li>
             </ol>
         </p>
+        <br>
+        <br>
+    </section>
+    <hr>
+    <section>
+        <h2>Additional Details</h2>
+        <h3>Avengers Website</h3>
+        Maintaining the website of the Avengers Website. Looking for front end and back end developers.
+        <h3><i>SHIELD</i> protocol engineer</h3>
+        Creating new lockdown protocols for the SHIELD secure database and INSIGHT cariers.
+        <h3><i>SHIELD</i> Research and Development</h3>
+        Develop new weapons for protection against outworldly threats.
+        <br>
+        <br>
+    <hr>
+    <section>
+        <details>
+            <summary>Details about author</summary>
+            Divyam Rana is a forth year Math - CS student at UC San Diego
+        </details>
+        <br>
+        <br>
+    </section>
+    <hr>
+    <section>
+        <p>Video (Non copyright)</p>
+        <video controls width="500">
+            <source src="./Video/video.mp4"
+                    type="video/mp4">
+        </video>
+
+        <p>Audio non copyright</p>
+        <audio controls
+                src="./Music/electronic-future-beats-117997.mp3">
+            </audio>
+            <br>
+
+        <p>Image (Non copyright)</p>
+        <img src="./Image/teena-lalawat-ixmpQbAG8qk-unsplash.jpg" alt="Non Copyright Image" width="100" height="100">
+     <br>
+     <br>
     </section>
 
-    </main>
+    <section>
+        <h3>Application for Internship and Full Time Opportunities</h3>
+        <form>
+            <div>
+                <label>Enter your name: </label>
+                <input type = 'text' required>
+                <br>
+                <label>Enter your email: </label>
+                <input required>
+                <br>
+                <label>Application Date</label>
+                <input type="date" value="2022-10-08" min="2022-10-08" max="2030-12-31" required>
+                <br>
+                <label>Position Applied for</label>
+                <select>
+                <optgroup>
+                <option>Avengers Campus Internship</option>
+                <option>SHIELD Protocol Engineer</option>
+                <option>SHIELD Research and Development</option>
+                </optgroup>
+                </select>
+                <br>
+                <fieldset>
+                    <legend>Are you compliant to the Sokovia Accords?</legend>
+                
+                    <input type="radio">
+                    <label>Yes</label><br>
+                
+                    <input type="radio">
+                    <label>No</label><br>
+                
+                    <input type="radio">
+                    <label>Prefer Not to Answer</label><br>
+                  </fieldset>
+                <br>
+                <br>
+                  <label>Choose your work eligibility</label>
+                  <input list='work-eligibility' required>
+                  <datalist id="work-eligibility" >
+                    <option value="Yes">
+                    <option value="No">
+                    <option value="Help Me">
+                </datalist>
+                <br>
+                <br>
+                <label>Tell us why we should hire you</label>
+                <textarea></textarea>
+                <br>
+                <br>
+                <br>
+                <label>What kind of position are you applying for:</label><br>
+                <input type="checkbox" id = 'Internship' value="Internship">
+                <lable id = 'Internship'>Internship</lable><br>
+                <input type="checkbox" value="Full Time" id = 'Full Time'>
+                <label id = 'Full Time'>Full Time</label><br>
+                <input type="checkbox" value="Just came to meet Deadpool" id = 'Deadpool'>
+                <label id = 'Deadpool'>Just came to meet Deadpool</label>
+                <br>
+                <br>
+                <br>
+              </div>
+        </form>
+    </section>
+
+
+
     <footer>
         Copyright Divyam Rana 2022
-
+        <br>
+        <a href = 'mailto:dirana@ucsd.edu'>Email</a>
     </footer>
+    </main>
+
+
   </body>
 </html>
