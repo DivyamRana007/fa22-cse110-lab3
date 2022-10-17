@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-https://divyamrana007.github.io/Lab2_Starter/
+# Lab 3 - Starter
+DivyamRana007.github.io/fa22-cse110-lab3

@@ -111,3 +111,30 @@ video{
     }
 }
 
+ol[class = 'attendees']{
+    color: white;
+}
+
+ol.attendees li{
+    margin: auto;
+}
+
+ol.attendees > li{
+    color: blanchedalmond;
+}
+
+section p {
+    color: azure;
+  }
+
+ section + p {
+    color: grey;
+  }
+
+  ol ~ li{
+    color: aqua;
+  }
+
+ ol.attendees li:item > ul {
+    font-family: 'Roboto', sans-serif;
+ }
